@@ -63,7 +63,7 @@ const MeetingCard = ({
                     <div className="flex gap-2">
                         <Button onClick={handleClick} className="rounded bg-blue-1 px-6">
                             {buttonIcon1 && (
-                                <Image src={buttonIcon1} alt="feature" width={20} height={20} />
+                                <Image src={buttonIcon1} alt="" width={20} height={20} />
                             )}
                             &nbsp; {buttonText}
                         </Button>
@@ -78,7 +78,7 @@ const MeetingCard = ({
                         >
                             <Image
                                 src="/icons/copy.svg"
-                                alt="feature"
+                                alt=""
                                 width={20}
                                 height={20}
                             />
